@@ -26,7 +26,7 @@ jobs:
         run: |
           npm i
           npm install --save-dev --save-exact prettier
-          npm run prettier
+          
           npm test
         env:
           CI: true 
@@ -75,7 +75,7 @@ jobs:
         run: |
           npm i
           npm install --save-dev --save-exact prettier
-          npm run prettier
+          
           npm test
         env:
           CI: true 
