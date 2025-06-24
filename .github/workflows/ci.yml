@@ -12,7 +12,7 @@ jobs:
         working-directory: ./client
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [18.20.8]
         architecture: [x64]
     steps:
       - name: Check-out git repository  
@@ -62,7 +62,7 @@ jobs:
         working-directory: ./backend
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [18.20.8]
         architecture: [x64]
     steps:
       - name: Check-out git repository  
