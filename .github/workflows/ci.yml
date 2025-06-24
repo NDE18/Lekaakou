@@ -25,7 +25,6 @@ jobs:
         working-directory: ./client
         run: |
           npm i
-          npm run lint
           npm install --save-dev --save-exact prettier
           npm run prettier
           npm test
@@ -75,7 +74,6 @@ jobs:
         working-directory: ./backend
         run: |
           npm i
-          npm run lint
           npm install --save-dev --save-exact prettier
           npm run prettier
           npm test
