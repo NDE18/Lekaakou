@@ -77,7 +77,7 @@ jobs:
 
               # Setup sonar-scanner
       - name: Setup SonarQube
-        uses: warchant/setup-sonar-scanner@v8
+        uses: warchant/setup-sonar-scanner@v2
 
       - name: Analyze with SonarCloud
         uses: sonarsource/sonarcloud-github-action@master
