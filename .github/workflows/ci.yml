@@ -93,6 +93,7 @@ jobs:
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
             -Dsonar.sources=.
             -Dsonar.verbose=true
+            -Dsonar.scanner.cache.enabled=false
           
 
   frontend-security:
